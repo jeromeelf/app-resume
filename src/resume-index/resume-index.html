@@ -1,0 +1,32 @@
+<link rel="import" href="../../bower_components/polymer/polymer-element.html">
+
+<dom-module id="resume-index">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+    <h2>Hello [[prop1]]!</h2>
+  </template>
+
+  <script>
+    /**
+     * @customElement
+     * @polymer
+     */
+    class ResumeIndex extends Polymer.Element {
+      static get is() { return 'resume-index'; }
+      static get properties() {
+        return {
+          prop1: {
+            type: String,
+            value: 'resume-index'
+          }
+        };
+      }
+    }
+
+    window.customElements.define(ResumeIndex.is, ResumeIndex);
+  </script>
+</dom-module>
