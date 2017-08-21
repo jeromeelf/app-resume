@@ -2,7 +2,8 @@
   "name": "resume",
   "main": "index.html",
   "dependencies": {
-    "polymer": "Polymer/polymer#^2.0.0"
+    "polymer": "Polymer/polymer#^2.0.0",
+    "header-resume": "ssh://git@github.com:jeromeelf/header-resume.git"
   },
   "devDependencies": {
     "web-component-tester": "Polymer/web-component-tester#^6.0.0",
